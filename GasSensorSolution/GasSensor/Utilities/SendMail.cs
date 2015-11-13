@@ -32,20 +32,19 @@ namespace GasSensor.Utilities
             MailMessage mail = new MailMessage();
 
             // Especifica o e-mail de quem está enviando (opicional)
-            mail.Sender = new MailAddress("diego.dscrj@gmail.com", "Sender");
+            mail.Sender = new MailAddress("dlfmsolutions@gmail.com");
 
             // Especifica quem está enviando o e-mail
-            mail.From = new MailAddress("diego.dscrj@gmail.com", "Quem enviou");
+            mail.From = new MailAddress("diego.dscrj@gmail.com");
 
             // Especifica os remetentes do e-mail
-            mail.To.Add(new MailAddress("dsampaio@mundipagg.com", "Receiver"));
+            mail.To.Add(new MailAddress("luis-oliveira@msn.com"));
 
             // Assunto do e-mail
-            mail.Subject = "Contato";
+            mail.Subject = "Alerta de vazamento de gás.";
 
             // Corpo do e-mail
-            mail.Body = " Mensagem do site: E-mail de teste para o cliente de envio de e-mail do trabalho da Yona.<br/> Nome:  " + "Diego" + "<br/> Email : " + "diego.dscrj@gmail.com" +
-                        " <br/> Mensagem : " + "Mensagem de teste";
+            mail.Body = " Este e-mail está sendo enviado para alertar que foi detectado um vazamento de gás em sua casa.";
 
             // Diz que o corpo do e-mail é um HTML
             mail.IsBodyHtml = true;
