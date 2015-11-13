@@ -30,11 +30,14 @@ namespace GasSensor.Controllers
             Random rnd = new Random();
 
             // Gera um numero aleatório de 0 a 10
-            int numero = rnd.Next(0, 10);
+            int grauVazamento = rnd.Next(0, 10);
 
             // Caso o teor de vazamento de gás seja maior que 1 será disparado um e-mail avisando que está ocorrendo um vazamento de gás
-            if (numero > 1)
+            if (grauVazamento > 1)
             {
+                // Fecha a valvula do sistema de vazamento de gás
+                grauVazamento = 0 ;
+
                 // Redirecionado para a ação de enviar o e-mail
                 return RedirectToAction("SendMail");
 

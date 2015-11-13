@@ -44,7 +44,7 @@ namespace GasSensor.Utilities
             mail.Subject = "Alerta de vazamento de gás.";
 
             // Corpo do e-mail
-            mail.Body = " Este e-mail está sendo enviado para alertar que foi detectado um vazamento de gás em sua casa.";
+            mail.Body = " Este e-mail está sendo enviado para alertar que foi detectado um vazamento de gás em sua casa. Por medida de segurança o sistema de alimentação de gás foi fechado automaticamente";
 
             // Diz que o corpo do e-mail é um HTML
             mail.IsBodyHtml = true;
