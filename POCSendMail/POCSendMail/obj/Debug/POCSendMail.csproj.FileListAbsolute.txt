@@ -1,0 +1,6 @@
+c:\users\diego\documents\visual studio 2013\Projects\POCSendMail\POCSendMail\bin\Debug\POCSendMail.exe.config
+c:\users\diego\documents\visual studio 2013\Projects\POCSendMail\POCSendMail\bin\Debug\POCSendMail.exe
+c:\users\diego\documents\visual studio 2013\Projects\POCSendMail\POCSendMail\bin\Debug\POCSendMail.pdb
+c:\users\diego\documents\visual studio 2013\Projects\POCSendMail\POCSendMail\obj\Debug\POCSendMail.csprojResolveAssemblyReference.cache
+c:\users\diego\documents\visual studio 2013\Projects\POCSendMail\POCSendMail\obj\Debug\POCSendMail.exe
+c:\users\diego\documents\visual studio 2013\Projects\POCSendMail\POCSendMail\obj\Debug\POCSendMail.pdb
