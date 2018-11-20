@@ -1,0 +1,6 @@
+C:\Users\Diego\Desktop\lib60870.NET-2.1.0\lib60870.NET-2.1.0\lib60870\bin\Debug\lib60870.dll
+C:\Users\Diego\Desktop\lib60870.NET-2.1.0\lib60870.NET-2.1.0\lib60870\bin\Debug\lib60870.pdb
+C:\Users\Diego\Desktop\lib60870.NET-2.1.0\lib60870.NET-2.1.0\lib60870\obj\x86\Debug\lib60870.csprojAssemblyReference.cache
+C:\Users\Diego\Desktop\lib60870.NET-2.1.0\lib60870.NET-2.1.0\lib60870\obj\x86\Debug\lib60870.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Desktop\lib60870.NET-2.1.0\lib60870.NET-2.1.0\lib60870\obj\x86\Debug\lib60870.dll
+C:\Users\Diego\Desktop\lib60870.NET-2.1.0\lib60870.NET-2.1.0\lib60870\obj\x86\Debug\lib60870.pdb
