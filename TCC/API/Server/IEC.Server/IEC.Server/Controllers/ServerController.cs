@@ -63,7 +63,6 @@ namespace IEC.Server.Controllers
                 }
             }
 
-            Console.WriteLine("Stop server");
             server.Stop();
         }
     }

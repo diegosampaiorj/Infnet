@@ -17,8 +17,7 @@ namespace IEC.Client.Controllers
         [HttpGet]
         public void ClientConnection()
         {
-            Console.WriteLine("Using lib60870.NET version " + LibraryCommon.GetLibraryVersionString());
-
+           
             Connection con = new Connection("127.0.0.1");
 
             con.DebugOutput = true;
@@ -55,24 +54,15 @@ namespace IEC.Client.Controllers
             /* Synchronize clock of the controlled station */
             con.SendClockSyncCommand(1 /* CA */, new CP56Time2a(DateTime.Now));
 
-
-            Console.WriteLine("CLOSE");
-
-            con.Close();
-
-            Console.WriteLine("RECONNECT");
+/* exemplo de reconexao e perda
+           con.Close();
 
             con.Connect();
 
             Thread.Sleep(5000);
 
-
-            Console.WriteLine("CLOSE 2");
-
             con.Close();
-
-            Console.WriteLine("Press any key to terminate...");
-            Console.ReadKey();
+            */
         }
 
 
